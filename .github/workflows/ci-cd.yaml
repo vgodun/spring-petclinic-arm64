@@ -7,8 +7,8 @@ on:
     branches: [main]
 
 env:
-  IMAGE_NAME: darktend1/spring-petclinic
-  GITOPS_REPO: vgodun/k8s-gitops
+  IMAGE_NAME: ${{ vars.IMAGE_NAME }}
+  GITOPS_REPO: ${{ vars.GITOPS_REPO }}
 
 jobs:
   test:
