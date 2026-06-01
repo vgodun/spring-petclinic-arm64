@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 env:
-  IMAGE_NAME: vgodun/spring-petclinic
+  IMAGE_NAME: darktend1/spring-petclinic
   GITOPS_REPO: vgodun/k8s-gitops
 
 jobs:
